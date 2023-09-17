@@ -19,7 +19,8 @@
         android:id="@+id/buttonGreet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Greet" />
+        android:layout_gravity="center"
+        android:text="Guess My Age" />
 
     <TextView
         android:id="@+id/textViewGreeting"
@@ -28,5 +29,13 @@
         android:layout_gravity="center"
         android:text=""
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Share"
+        android:visibility="gone"/>
 
 </LinearLayout>
